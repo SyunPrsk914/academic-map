@@ -1,1 +1,104 @@
 
+{
+  "nodes": [
+
+    {
+      "id": "Physics",
+      "type": "field",
+      "size": 70,
+      "description": "Study of matter, energy, and fundamental forces",
+      "clusterFile": "data/clusters/physics.json"
+    },
+
+    {
+      "id": "Chemistry",
+      "type": "field",
+      "size": 70,
+      "description": "Study of chemical substances, reactions, and molecular structures",
+      "clusterFile": "data/clusters/chemistry.json"
+    },
+
+    {
+      "id": "Biology",
+      "type": "field",
+      "size": 70,
+      "description": "Study of living organisms and life processes",
+      "clusterFile": "data/clusters/biology.json"
+    },
+
+    {
+      "id": "Mathematics",
+      "type": "field",
+      "size": 70,
+      "description": "Study of numbers, structures, patterns, and logical relationships",
+      "clusterFile": "data/clusters/mathematics.json"
+    },
+
+    {
+      "id": "Computer Science",
+      "type": "field",
+      "size": 70,
+      "description": "Study of computation, algorithms, and information processing",
+      "clusterFile": "data/clusters/computerscience.json"
+    },
+
+    {
+      "id": "Economics",
+      "type": "field",
+      "size": 70,
+      "description": "Study of resource allocation, markets, and economic systems",
+      "clusterFile": "data/clusters/economics.json"
+    },
+
+    {
+      "id": "Political Science",
+      "type": "field",
+      "size": 70,
+      "description": "Study of governance, political systems, and public policy",
+      "clusterFile": "data/clusters/politics.json"
+    },
+
+    {
+      "id": "Law",
+      "type": "field",
+      "size": 70,
+      "description": "Study of legal systems, regulations, and justice",
+      "clusterFile": "data/clusters/law.json"
+    },
+
+    {
+      "id": "Philosophy",
+      "type": "field",
+      "size": 70,
+      "description": "Study of fundamental questions about knowledge, existence, and ethics",
+      "clusterFile": "data/clusters/philosophy.json"
+    },
+
+    {
+      "id": "Psychology",
+      "type": "field",
+      "size": 70,
+      "description": "Study of mind, cognition, and human behavior",
+      "clusterFile": "data/clusters/psychology.json"
+    },
+
+    {
+      "id": "Literature",
+      "type": "field",
+      "size": 70,
+      "description": "Study of written works, narrative, and literary traditions",
+      "clusterFile": "data/clusters/literature.json"
+    },
+
+    {
+      "id": "Arts",
+      "type": "field",
+      "size": 70,
+      "description": "Study and practice of visual, performing, and creative arts",
+      "clusterFile": "data/clusters/arts.json"
+    }
+
+  ],
+
+  "links": []
+}
