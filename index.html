@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
 
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Academic Knowledge Map</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+</head>
+
+<body>
+
+<div id="toolbar">
+
+<input id="search-box" placeholder="Search field, concept, person">
+
+<button id="search-btn">Search</button>
+
+<button id="suggest-btn">Suggest Node</button>
+
+<button id="reset-btn">Reset</button>
+
+</div>
+
+<div id="graph"></div>
+
+<div id="info-panel">
+
+<div id="close-panel">✕</div>
+
+<h2 id="node-title"></h2>
+
+<div id="node-type"></div>
+
+<div id="node-description"></div>
+
+</div>
+
+<div id="suggest-panel">
+
+<div id="close-suggest">✕</div>
+
+<h3>Suggest a new node</h3>
+
+<input id="s-name" placeholder="Name">
+
+<select id="s-type">
+
+<option value="field">Field</option>
+<option value="subfield">Subfield</option>
+<option value="concept">Concept</option>
+<option value="technology">Technology</option>
+<option value="person">Person</option>
+<option value="organization">Organization</option>
+
+</select>
+
+<input id="s-parent" placeholder="Connect to node">
+
+<textarea id="s-description"></textarea>
+
+<button id="submit-suggestion">Submit</button>
+
+<div id="suggest-msg"></div>
+
+</div>
+
+<script src="graphEngine.js"></script>
+<script src="search.js"></script>
+<script src="ui.js"></script>
+<script src="suggestionSystem.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
