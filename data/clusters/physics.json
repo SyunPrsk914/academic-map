@@ -1,1 +1,29 @@
+{
+ "nodes":[
 
+{"id":"Quantum Mechanics","type":"subfield","size":50},
+{"id":"Thermodynamics","type":"subfield","size":50},
+{"id":"Electromagnetism","type":"subfield","size":50},
+
+{"id":"Schrodinger Equation","type":"concept","size":35},
+{"id":"Entropy","type":"concept","size":35},
+
+{"id":"Albert Einstein","type":"person","size":25},
+{"id":"Richard Feynman","type":"person","size":25}
+
+],
+
+"links":[
+
+{"source":"Physics","target":"Quantum Mechanics"},
+{"source":"Physics","target":"Thermodynamics"},
+{"source":"Physics","target":"Electromagnetism"},
+
+{"source":"Quantum Mechanics","target":"Schrodinger Equation"},
+{"source":"Thermodynamics","target":"Entropy"},
+
+{"source":"Quantum Mechanics","target":"Richard Feynman"},
+{"source":"Relativity","target":"Albert Einstein"}
+
+]
+}
